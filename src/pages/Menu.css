@@ -1,0 +1,96 @@
+.menu-page {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .page-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .meal-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .meal-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .meal-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+  }
+  
+  .meal-image {
+    width: 100%;
+    height: fit-content;
+    border-radius: 8px;
+  }
+  
+  .weekly-menu {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  
+  .table-bordered {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table-bordered th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .table-bordered tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-bordered tr:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .meal-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .meal-card {
+      width: 80%;
+    }
+  
+    .weekly-menu {
+      width: 90%;
+    }
+  }
+  

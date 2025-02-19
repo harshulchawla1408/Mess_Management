@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1500x800?text=Hostel+Mess') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .about {
+    background-color: #fff;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn {
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .hero-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+  }
+  
+  .service-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .meal-section {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .meal-card {
+    text-align: center;
+    width: 300px;
+  }
+  
+  .meal-image {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  
